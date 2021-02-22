@@ -10,19 +10,26 @@ DOSKEY fraud=cd  %USERPROFILE%\Desktop\thesis\code
 
 
 :: git
-DOSKEY grh=git reset --hard HEAD
 DOSKEY ga=git add .
 DOSKEY gb=git branch
-DOSKEY gc=git clean -f
-DOSKEY gcm=git checkout master
 DOSKEY gs=git status
+DOSKEY gc=git clean -f
 DOSKEY gm=git commit -m
-DOSKEY gpom=git push origin master
-DOSKEY gpuom=git pull origin master
-DOSKEY gpum=git pull upstream master
 DOSKEY grv=git remote -v
-DOSKEY grau=git remote add upstream
 DOSKEY gcr=git mr upstream
+DOSKEY gcd=git checkout dev
+DOSKEY gcb=git checkout -b $*
+DOSKEY gcm=git checkout master
+DOSKEY grh=git reset --hard HEAD
+DOSKEY gpom=git push origin master
+DOSKEY push om=git push origin master
+DOSKEY gpoh=git push origin HEAD
+DOSKEY push oh=git push origin HEAD
+DOSKEY grau=git remote add upstream
+DOSKEY gpum=git pull upstream master
+DOSKEY gpuom=git pull origin master
+DOSKEY pull oh=git pull origin HEAD
+
 
 :: docker
 DOSKEY dps=docker ps
