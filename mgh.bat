@@ -22,13 +22,13 @@ DOSKEY gcb=git checkout -b $*
 DOSKEY gcm=git checkout master
 DOSKEY grh=git reset --hard HEAD
 DOSKEY gpom=git push origin master
-DOSKEY push om=git push origin master
+DOSKEY pushom=git push origin master
 DOSKEY gpoh=git push origin HEAD
-DOSKEY push oh=git push origin HEAD
+DOSKEY pushoh=git push origin HEAD
 DOSKEY grau=git remote add upstream
 DOSKEY gpum=git pull upstream master
 DOSKEY gpuom=git pull origin master
-DOSKEY pull oh=git pull origin HEAD
+DOSKEY pulloh=git pull origin HEAD
 
 
 :: docker
