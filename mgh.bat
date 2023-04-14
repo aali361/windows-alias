@@ -28,8 +28,8 @@ DOSKEY grau=git remote add upstream
 DOSKEY gpum=git pull upstream master
 DOSKEY gpuom=git pull origin master
 DOSKEY pushom=git push origin master
-DOSKEY pushoh=git push origin HEAD
-DOSKEY pulloh=git pull origin HEAD
+DOSKEY pusho=git push origin @
+DOSKEY pullo=git pull origin @
 
 
 :: docker
