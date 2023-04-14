@@ -62,3 +62,8 @@ DOSKEY kd=kubectl delete $*
 DOSKEY kaf=kubectl apply -f $*
 DOSKEY kdf=kubectl delete -f $*
 DOSKEY ke=kubectl exec -it $* -- bash
+
+
+:: ssh
+DOSKEY lab=ssh ghorbani@localhost -p 2020
+DOSKEY proxy=ssh -D 2014 root@180.149.44.50
