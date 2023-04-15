@@ -66,4 +66,5 @@ DOSKEY ke=kubectl exec -it $* -- bash
 
 :: ssh
 DOSKEY lab=ssh ghorbani@localhost -p 2020
+DOSKEY my=ssh root@154.91.170.163 -p 3022
 DOSKEY proxy=ssh -D 2014 root@180.149.44.50
